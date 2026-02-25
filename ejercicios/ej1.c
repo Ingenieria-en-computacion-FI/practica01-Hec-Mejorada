@@ -1,6 +1,13 @@
 
 #include <stdio.h>
 int main(){
-    // Ejercicio 1
+int a[6];
+int i;
+for (i=0;i<6;i++){
+    printf("&a[%d]=%p\n",i,&a[i]);
+}   
+
+    
+}
     return 0;
 }
